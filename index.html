@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Josue Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" class="brand-logo">Josue</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#abouts">About</a>
+                </li>
+                <li>
+                    <a href="#slides">Work</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bgimg-1" id="home"></div>
+    <div class='container'>
+        <div class="row" id="abouts">
+            <div class="col s12 center">
+                <h3>About Me</h3>
+                <p>Welcome to my portfolio site my name is Josue, and I'm a tattoo artist with 3 years of experience.</p>
+            </div>
+                <div class="col s12 m6 center">
+                    <p>
+                        <b><i class="fa fa-user"></i>Josue</b>
+                    </p>
+                    <br>
+                    <img class="picOfMe" src="pics/picOfMe.jpeg" alt="Photo of Me" width="100%" height="auto">
+                </div>
+                <div class="col s12 m6">
+                    <p class="">Hello my name is Josue and I love what I do, since I was a kid I loved to draw and now I have turn that into a passion.</p>
+                    <p>You can contact me at reups@gmail.com</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="slider" id="slides">
+        <ul class="slides">
+          <li>
+            <img src="pics/IMG_1.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              
+              
+            </div>
+          </li>
+          <li>
+            <img src="pics/IMG_2.jpeg"> <!-- random image -->
+            <div class="caption left-align">
+             
+            </div>
+          </li>
+          <li>
+            <img src="pics/IMG_3.jpeg"> <!-- random image -->
+            <div class="caption right-align">
+              
+            </div>
+          </li>
+          <li>
+            <img src="pics/IMG_4.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script >$(document).ready(function(){
+    $('.slider').slider();
+  });</script>
+</body>
+
+</html>
